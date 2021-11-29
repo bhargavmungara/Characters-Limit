@@ -6,10 +6,10 @@
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
-    "dev": "parcel src/index.html",
-    "build": "react-scripts build index.html",
+    "dev": "parcel public/index.html",
+    "build": "react-scripts build public/index.html",
     "start": "react-scripts --openssl-legacy-provider start",
-    "serve": "parcel serve index.html",
+    "serve": "parcel serve public/index.html",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
